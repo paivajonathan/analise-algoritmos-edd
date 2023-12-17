@@ -1,13 +1,7 @@
 // Programiz: quick sort in C (https://www.programiz.com/dsa/quick-sort)
 
 #include <stdio.h>
-
-// function to swap elements
-void swap(int *a, int *b) {
-  int t = *a;
-  *a = *b;
-  *b = t;
-}
+#include "../../utils/utils.h"
 
 // function to find the partition position
 int partition(int array[], int low, int high) {

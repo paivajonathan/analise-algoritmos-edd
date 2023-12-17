@@ -9,3 +9,11 @@ void printArray(int A[], int size)
         printf("%d ", A[i]); 
     printf("\n"); 
 }
+
+// function to swap the the position of two elements
+void swap(int *a, int *b)
+{
+  int temp = *a;
+  *a = *b;
+  *b = temp;
+}
