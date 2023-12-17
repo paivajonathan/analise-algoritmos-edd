@@ -1,18 +1,9 @@
 #include <stdio.h>
 #include <time.h>
-#include "./merge_sort/merge_sort.h"
+#include "./sorting/merge_sort/merge_sort.h"
 #include "./data/data.h"
+#include "./utils/utils.h"
  
-// UTILITY FUNCTIONS 
-// Function to print an array 
-void printArray(int A[], int size) 
-{ 
-    int i; 
-    for (i = 0; i < size; i++) 
-        printf("%d ", A[i]); 
-    printf("\n"); 
-}
-
 // Driver code 
 int main(void) 
 { 
