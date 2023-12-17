@@ -1,1 +1,1 @@
-# analise-algoritmos-edd
+# Análise de Algoritmos de Ordenação - Estrutura de Dados
