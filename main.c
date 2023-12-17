@@ -10,6 +10,8 @@
 #include "./sorting/insertion_sort/insertion_sort.h"
 #include "./sorting/selection_sort/selection_sort.h"
 
+#include "./sorting/heap_sort/heap_sort.h"
+
 int main(void) 
 { 
     clock_t start, end;
@@ -21,7 +23,7 @@ int main(void)
     printArray(medium_reversed_data, arr_size); 
     
     start = clock();
-    selectionSort(medium_reversed_data, arr_size);
+    heapSort(medium_reversed_data, arr_size);
     end = clock();
 
     time_taken = (double) (end - start) / CLOCKS_PER_SEC;
