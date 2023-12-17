@@ -3,8 +3,7 @@
 #include "./data/data.h"
 #include "./utils/utils.h"
 #include "./sorting/merge_sort/merge_sort.h"
- 
-// Driver code 
+
 int main(void) 
 { 
     clock_t start, end;
