@@ -2,18 +2,17 @@
 
 // UTILITY FUNCTIONS 
 // Function to print an array 
-void printArray(int A[], int size)
+void printArray(int array[], int size)
 { 
-    int i; 
-    for (i = 0; i < size; i++) 
-        printf("%d ", A[i]); 
+    for (int i = 0; i < size; i++) 
+        printf("%d ", array[i]); 
     printf("\n"); 
 }
 
 // function to swap the the position of two elements
 void swap(int *a, int *b)
 {
-  int temp = *a;
-  *a = *b;
-  *b = temp;
+    int temp = *a;
+    *a = *b;
+    *b = temp;
 }
