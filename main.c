@@ -13,14 +13,16 @@
 #include "./sorting/heap_sort/heap_sort.h"
 #include "./sorting/tim_sort/tim_sort.h"
 
-int main(void) 
+#define ARRAY large_unordered_data
+const int LENGTH = sizeof(ARRAY) / sizeof(ARRAY[0]);
+
+int main(void)
 { 
     clock_t start, end;
     double time_taken;
-    int arr_size = LARGE_DATA_SIZE;
-    
+
     start = clock();
-    timSort(large_reversed_data, arr_size);
+    insertionSort(ARRAY, LENGTH);
     end = clock();
 
     time_taken = (double) (end - start) / CLOCKS_PER_SEC;
