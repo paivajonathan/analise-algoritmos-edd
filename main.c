@@ -17,21 +17,14 @@ int main(void)
 { 
     clock_t start, end;
     double time_taken;
-
-    int arr_size = LARGE_DATA_SIZE; 
-  
-    printf("Given array is \n"); 
-    printArray(large_reversed_data, arr_size); 
+    int arr_size = LARGE_DATA_SIZE;
     
     start = clock();
     timSort(large_reversed_data, arr_size);
     end = clock();
 
     time_taken = (double) (end - start) / CLOCKS_PER_SEC;
-
-    printf("\nSorted array is \n"); 
-    printArray(large_reversed_data, arr_size);
-    
     printf("Time taken in seconds: %f\n", time_taken);
+
     return 0; 
 }
