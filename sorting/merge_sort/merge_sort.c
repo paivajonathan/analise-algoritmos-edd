@@ -1,4 +1,6 @@
 // GeeksForGeeks: merge sort in C (https://www.geeksforgeeks.org/merge-sort/)
+#include <stdio.h>
+#include <stdlib.h>
 
 // Merges two subarrays of arr[]. 
 // First subarray is arr[l..m] 
