@@ -1,2 +1,2 @@
-void printArray(int array[], int size);
-void swap(int *a, int *b);
+extern void printArray(int array[], int size);
+extern void swap(int *a, int *b);

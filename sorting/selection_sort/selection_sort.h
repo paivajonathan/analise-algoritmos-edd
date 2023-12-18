@@ -1,1 +1,1 @@
-void selectionSort(int array[], int size);
+extern void selectionSort(int array[], int size);

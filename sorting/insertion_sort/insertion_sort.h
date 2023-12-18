@@ -1,1 +1,1 @@
-void insertionSort(int arr[], int n);
+extern void insertionSort(int arr[], int n);

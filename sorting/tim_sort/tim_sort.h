@@ -1,1 +1,1 @@
-void timSort(int arr[], int n);
+extern void timSort(int arr[], int n);
