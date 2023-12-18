@@ -13,7 +13,7 @@
 #include "./sorting/heap_sort/heap_sort.h"
 #include "./sorting/tim_sort/tim_sort.h"
 
-#define ARRAY large_unordered_data
+#define ARRAY small_random_data // <--- Change this to test different data sets
 const int LENGTH = sizeof(ARRAY) / sizeof(ARRAY[0]);
 
 int main(void)
@@ -22,7 +22,7 @@ int main(void)
     double time_taken;
 
     start = clock();
-    insertionSort(ARRAY, LENGTH);
+    insertionSort(ARRAY, LENGTH); // <--- Change this to test different sorting algorithms
     end = clock();
 
     time_taken = (double) (end - start) / CLOCKS_PER_SEC;
